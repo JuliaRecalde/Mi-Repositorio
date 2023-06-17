@@ -22,7 +22,7 @@ urlpatterns = [
     #path("polls/", include("polls.urls")),
     #path("admin/", admin.site.urls),
     
-    path("reserva/", include("reserva.urls")),
+   # path("reserva/", include("reserva.urls")),
     path("admin/", admin.site.urls),
     
 ]
