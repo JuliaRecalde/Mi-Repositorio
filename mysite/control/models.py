@@ -16,6 +16,10 @@ class Empleado(models.Model):
     turno = models.CharField(max_length=100)
     horario_entrada = models.TimeField()
     horario_salida = models.DateTimeField()
+    
+    #cambios
+    activo = models.BooleanField(default=True)
+    telefono = models.CharField(max_length=20, blank=True)
 
     #def __str__(self):
     #    return self.nombre
